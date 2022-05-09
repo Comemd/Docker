@@ -1,0 +1,14 @@
+version: '3'
+services:
+    Data:
+        build: 
+            dockerfile: Datafile
+        image: Data
+    ML:
+        build: 
+            dockerfile: MLfile
+        image: ML
+    Visualisation:
+        build: 
+            dockerfile: Visualisationfile
+        image: Data
